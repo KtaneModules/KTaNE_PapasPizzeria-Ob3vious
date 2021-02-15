@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: 2115720fc144a0c4093230d3176f6a53
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Bacon
+    100002: Bell Peppers
+    100004: Cheese
+    100006: Chicken
+    100008: Dough
+    100010: Egg
+    100012: Fish
+    100014: Ham
+    100016: Mushrooms
+    100018: Onions
+    100020: Pepperonis
+    100022: Pickles
+    100024: //RootNode
+    100026: Sauce
+    100028: Seaweed
+    400000: Bacon
+    400002: Bell Peppers
+    400004: Cheese
+    400006: Chicken
+    400008: Dough
+    400010: Egg
+    400012: Fish
+    400014: Ham
+    400016: Mushrooms
+    400018: Onions
+    400020: Pepperonis
+    400022: Pickles
+    400024: //RootNode
+    400026: Sauce
+    400028: Seaweed
+    2100000: No Name
+    2300000: Bacon
+    2300002: Bell Peppers
+    2300004: Cheese
+    2300006: Chicken
+    2300008: Dough
+    2300010: Egg
+    2300012: Fish
+    2300014: Ham
+    2300016: Mushrooms
+    2300018: Onions
+    2300020: Pepperonis
+    2300022: Pickles
+    2300024: Sauce
+    2300026: Seaweed
+    3300000: Bacon
+    3300002: Bell Peppers
+    3300004: Cheese
+    3300006: Chicken
+    3300008: Dough
+    3300010: Egg
+    3300012: Fish
+    3300014: Ham
+    3300016: Mushrooms
+    3300018: Onions
+    3300020: Pepperonis
+    3300022: Pickles
+    3300024: Sauce
+    3300026: Seaweed
+    4300000: Dough
+    4300002: Sauce
+    4300004: Cheese
+    4300006: Pepperonis
+    4300008: Egg
+    4300010: Bacon
+    4300012: Fish
+    4300014: Seaweed
+    4300016: Chicken
+    4300018: Mushrooms
+    4300020: Ham
+    4300022: Onions
+    4300024: Bell Peppers
+    4300026: Pickles
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
