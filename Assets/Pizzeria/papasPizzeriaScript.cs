@@ -183,31 +183,34 @@ public class papasPizzeriaScript : MonoBehaviour
     {
         while (isAnimating)
             yield return null;
-        isAnimating = true;
-        if (!open)
+        if (open != open2)
         {
-            Texts[0].text = "5:00";
-            Audio.PlaySoundAtTransform("Box", Box.transform);
-        }
-        for (float t = 0; t < 1f; t += Time.deltaTime * 1.5f)
-        {
-            float a = t;
+            open = open2;
+            isAnimating = true;
+            if (open2)
+            {
+                Texts[0].text = "5:00";
+                Audio.PlaySoundAtTransform("Box", Box.transform);
+            }
+            for (float t = 0; t < 1f; t += Time.deltaTime * 1.5f)
+            {
+                float a = t;
+                if (!open2)
+                    a = 1f - a;
+                Box.transform.localEulerAngles = Vector3.Lerp(new Vector3(0, 0, 0), new Vector3(100, 0, 0), a);
+                yield return null;
+            }
+            Box.transform.localEulerAngles = new Vector3(open2 ? 100 : 0, 0, 0);
+            isAnimating = false;
             if (!open2)
-                a = 1f - a;
-            Box.transform.localEulerAngles = Vector3.Lerp(new Vector3(0, 0, 0), new Vector3(100, 0, 0), a);
-            yield return null;
+            {
+                foreach (var piece in pieces)
+                    piece.transform.localScale *= 0;
+                pieces.RemoveAll(x => true);
+                Pizza.transform.localEulerAngles = new Vector3(0, 0, 0);
+            }
+            StartCoroutine(Timer());
         }
-        Box.transform.localEulerAngles = new Vector3(open2 ? 100 : 0, 0, 0);
-        open = open2;
-        isAnimating = false;
-        if (!open2)
-        {
-            foreach (var piece in pieces)
-                piece.transform.localScale *= 0;
-            pieces.RemoveAll(x => true);
-            Pizza.transform.localEulerAngles = new Vector3(0, 0, 0);
-        }
-        StartCoroutine(Timer());
     }
 
     private IEnumerator Timer()
